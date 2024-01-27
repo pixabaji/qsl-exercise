@@ -1,0 +1,5 @@
+{
+    "tasks": {
+        "runApp": "mkdir -p log && deno run --allow-env --allow-all src/mod.ts"
+    }
+  }
