@@ -1,5 +1,7 @@
 {
     "tasks": {
-        "runApp": "mkdir -p log && deno run --allow-env --allow-all src/mod.ts"
+        "runQslApp": "mkdir -p log && deno run --allow-env --allow-all src/mod.ts",
+        "compileWindows": "mkdir -p log && deno compile --target x86_64-pc-windows-msvc --allow-env --allow-all --output app src/mod.ts",
+        "compileLinux": "mkdir -p log && deno compile --allow-env --allow-all --output app src/mod.ts"
     }
   }
